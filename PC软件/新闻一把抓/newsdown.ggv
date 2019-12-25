@@ -1,0 +1,72 @@
+BEGIN
+title=新浪新闻中心
+netaddress=http://news.sina.com.cn/
+class=国内新闻$国际新闻$体育信息$科技信息$财经信息$文化教育$娱乐信息$男人女人$社会新闻
+file=国内新闻.txt$国际新闻.txt$体育信息.txt$科技信息.txt$财经信息.txt$文化教育.txt$娱乐信息.txt$男人女人.txt$社会新闻.txt
+separate=全部
+textbegin=正文
+textend=发表评论
+END
+BEGIN
+title=新浪新闻-游戏动态
+netaddress=http://news.sina.com.cn/
+class=游戏动态
+file=游戏动态.txt
+separate=全部
+textbegin=正文
+textend=发表及查看评论
+END
+BEGIN
+title=搜狐国内外新闻
+netaddress=http://news.sohu.com/
+class=国内</SPAN>$国际</SPAN>
+file=国内新闻.txt$国际新闻.txt
+separate=更多
+textbegin=SOHU 首页
+textend=我来补充两句
+END
+BEGIN
+title=搜狐新闻-财经
+netaddress=http://news.sohu.com/
+class=财经</SPAN>
+file=财经信息.txt
+separate=更多
+textbegin=SOHU 首页
+textend=我来补充两句
+END
+BEGIN
+title=搜狐新闻-科技
+netaddress=http://news.sohu.com/
+class=科技</SPAN>
+file=科技信息.txt
+separate=更多
+textbegin=SOHU 首页
+textend=我来补充两句
+END
+BEGIN
+title=搜狐新闻-文教
+netaddress=http://news.sohu.com/
+class=文教</SPAN>
+file=文教信息.txt
+separate=更多
+textbegin=SOHU 首页
+textend=我来补充两句
+END
+BEGIN
+title=搜狐新闻-社会
+netaddress=http://news.sohu.com/
+class=社会</SPAN>
+file=社会信息.txt
+separate=更多
+textbegin=SOHU 首页
+textend=我来补充两句
+END
+BEGIN
+title=搜狐新闻-娱乐
+netaddress=http://news.sohu.com/
+class=娱乐</SPAN>
+file=娱乐信息.txt
+separate=更多
+textbegin=SOHU 首页
+textend=我来补充两句
+END

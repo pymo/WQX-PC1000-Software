@@ -1,0 +1,33 @@
+<html>
+<body>
+<center><b><h2>新闻一把抓工具使用说明</h2></b></center>
+1. 配置文件newsdown.ggv与此工具必须放在同一目录下<p>
+2. 配置文件格式:<br>
+   &nbsp a.关键字:BEGIN,END,netaddres,class,file,separate, <br>&nbsp  textbegin,textend区分大小写<br>
+    &nbsp title:菜单标题<br>
+    &nbsp netaddres:表示网址<br>
+    &nbsp class:表示新闻类别,类与类之间用$分割<br>
+   &nbsp  file:表示下载的数据保存到那个文件<br>
+   &nbsp  separate:表示新闻类别结束关键字<br>
+   &nbsp  textbegin:表示新闻内容开始<br>
+   &nbsp  textend:表示新闻内容结束<br>
+  &nbsp b.BEGIN,END必须配对,且包含其他7个关键字<br>
+ &nbsp  c.例如:<br>
+  &nbsp  BEGIN<br>
+   &nbsp  title=新浪新闻中心<br>
+   &nbsp  netaddress=http://news.sina.com.cn/<br>
+   &nbsp  class=国内新闻$国际新闻<br>
+   &nbsp  file=国内新闻.txt$国际新闻.txt<br>
+   &nbsp  separate=全部<br>
+   &nbsp  textbegin=正文<br>
+   &nbsp  textend=发表评论<br>
+   &nbsp  END<br>
+   &nbsp  上面例子表明从http://news.sina.com.cn 地址页面下载国内新闻和国际新闻<br>
+   &nbsp  其中国内新闻保存到闻国内新闻.txt,国际新闻保存到闻国际新闻.txt<br>
+   &nbsp  每条新闻以页面上的<正文>开始,<发表评论>结束<br>
+   <center><b><h4>新浪新闻中心部分页面如下</h4></b></center>
+   <img src=./sinamain.gif>
+   <center><b><h4>武汉市人大常委会表决通过 黄关春出任武汉副市长部分页面如下</h4></b></center>
+   <img src=./sinachild.gif>
+ </body>
+ </html>    
